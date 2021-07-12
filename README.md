@@ -48,9 +48,10 @@ Durbin-Watson value = 2.126
 **Homoscedasticity**
 
 Breusch-Pagan Test
-Lagrange Multiplier:
-p-value:
-f-value:
-f p-value:
+
+Lagrange Multiplier: 13.414
+p-value: 0.0984
+f-value: 1.808
+f p-value: 0.0929
 
 
