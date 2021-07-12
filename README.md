@@ -43,5 +43,14 @@ Durbin-Watson value = 2.126
 ----------------------------------------------------------------------------------------------
 **Multicollinearity of the Predictors**
 
-![]()
+![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images/Model2_VIF.png)
+----------------------------------------------------------------------------------------------
+**Homoscedasticity**
+
+Breusch-Pagan Test
+Lagrange Multiplier:
+p-value:
+f-value:
+f p-value:
+
 
