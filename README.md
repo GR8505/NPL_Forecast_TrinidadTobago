@@ -28,3 +28,7 @@ Using Predictive Analytics to forecast Non-Performing Loans Ratio in Trinidad an
 **Linearity**
 
 ![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images/Model2_Linearity.png)
+
+**Normality of Error Terms**
+
+![]()
