@@ -23,18 +23,20 @@ Using Predictive Analytics to forecast Non-Performing Loans Ratio in Trinidad an
 | Linearity | <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/ModelA1_Linearity.png" alt="drawing" width="400"/> | <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/ModelB2_Linearity.png" alt="drawing" width="600"/> |
 | Normality of Error Terms | ![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/ModelA1_NormalityErrors.png) | ![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/ModelB2_NormalityErrors.png) |
 | Shapiro-Wilk | p-value = 0.921 | p-value = 0.791 |
+| --- | --- | --- |
 
 Multicollinearity
 | --- | --- | --- |
 | Correlation Matrix | ![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/ModelA1_Multicollinearity.png) | ![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/ModelB2_Multicollinearity.png)      |
 | Variance Inflation Factor | ![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/ModelA1_VIF.png) | ![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/ModelB2_VIF.png) |
+| --- | --- | --- |
 
 Homoscedasticity
 | --- | --- | --- |
 | Residuals over Time |    |    |
 | Predicted vs Residuals |     |     |
 | Breusch-Pagan Test |  p-value = 0.4131 | Breusch-Pagan p-value = 0.1038 |
-
+| --- | --- | --- |
 
 
 
