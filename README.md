@@ -9,8 +9,6 @@ Using Predictive Analytics to forecast Non-Performing Loans Ratio in Trinidad an
 
 
 
-
-
 ---------------------------------------------------------------------------------------
 
 ### Regression Diagnostics ###
