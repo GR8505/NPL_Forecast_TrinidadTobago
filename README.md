@@ -20,7 +20,7 @@ Variance Inflation Factor values for all features/independent variables are less
 There are no clear patterns in the Residuals over time or Predicted values versus Residuals.
 The p-value from the Breusch-Pagan Test is not less than 0.05, therefore, we fail to reject the Null Hypothesis: Homoscedasticity is present.
 
-Model1 was compared with another model (Model2) which used Lagged Non-Performing Loans (LAG_NPL), M2 Money Supply – TT$ Million (M2) and Private Sector Credit – TT$ Million (CR_GROWTH) as predictors for NPL.  While Model2 boasted a better goodness of fit (Adjusted R-Squared) and a lower Akaike Information Criterion (AIC) value compared to Model1, it violates just one of the OLS assumptions, which is no multicollinearity.  
+Model 1 was compared with another model (Model 2) which used Lagged Non-Performing Loans (LAG_NPL), M2 Money Supply – TT$ Million (M2) and Private Sector Credit – TT$ Million (CR_GROWTH) as predictors for NPL.  While Model 2 boasted a better goodness of fit (Adjusted R-Squared) and a lower Akaike Information Criterion (AIC) value compared to Model 1, it violates just one of the OLS assumptions, which is no multicollinearity.  
 
 
 ---------------------------------------------------------------------------------------
@@ -43,9 +43,9 @@ Model1 was compared with another model (Model2) which used Lagged Non-Performing
 
 ---------------------------------------------------------------------------
 
-Despite this violation, Model2 can still be used as a forecasting tool.  
+Despite this violation, Model 2 can still be used as a forecasting tool.  
 
-While the statistical efficacy of Model1 is better than Model2, we must ensure that this makes sense in the real world.  Are these variables good predictors for NPL?
+While the statistical efficacy of Model1 is better than Model 2, we must ensure that this makes sense in the real world.  Are these variables good predictors for NPL?
 
 
 ### GDP ###
@@ -71,6 +71,7 @@ The growth in M2 money is often seen as a good proxy for heightened economic act
 ### CR_GROWTH_YY
 The NPL ratio is non-performing loans as a percentage of total loans.  Given that private sector credit growth can lead to a higher total loans value, this will definitely have a negative effect on NPL.  
 
-NPL Ratio = 
+NPL Ratio = <u>Non-Perfroming Loans</u>
+                 Total Loans
 
 
