@@ -69,9 +69,8 @@ The growth in M2 money is often seen as a good proxy for heightened economic act
 
 
 ### CR_GROWTH_YY
-The NPL ratio is non-performing loans as a percentage of total loans.  Given that private sector credit growth can lead to a higher total loans value, this will definitely have a negative effect on NPL.  
+The NPL ratio is non-performing loans as a percentage of total loans.  Given that private sector credit growth can lead to a higher total loans value, this will definitely have a negative effect on NPL. 
 
-NPL Ratio = <u>Non-Perfroming Loans</u>
-                 Total Loans
+![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/Ratio.png)
 
 
