@@ -25,7 +25,7 @@ Model 1 was compared with another model (Model 2) which used Lagged Non-Performi
 
 ---------------------------------------------------------------------------------------
 
-### Regression Diagnostics ###
+## Regression Diagnostics ##
 
 |           |  Model 1 |  Model 2 |
 | --- | --- | --- |
@@ -43,6 +43,7 @@ Model 1 was compared with another model (Model 2) which used Lagged Non-Performi
 
 ---------------------------------------------------------------------------
 
+## Conclusison ##
 Despite this violation, Model 2 can still be used as a forecasting tool.  
 
 While the statistical efficacy of Model1 is better than Model 2, we must ensure that this makes sense in the real world.  Are these variables good predictors for NPL?
@@ -72,5 +73,7 @@ The growth in M2 money is often seen as a good proxy for heightened economic act
 The NPL ratio is non-performing loans as a percentage of total loans.  Given that private sector credit growth can lead to a higher total loans value, this will definitely have a negative effect on NPL. 
 
 ![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/Ratio.png)
+
+If non-performing loans remain constant and the denominator increases, then this will result in a lower NPL ration.  In this model, a 1 percent increase in private sector credit growth will result in a decline in the average NPL ratio by 0.6199.
 
 
