@@ -11,7 +11,7 @@ The following list of independent variables were used to predict Non-Performing 
 - M2 Money Supply Growth **(M2_YYC)** and 
 - Private Sector Credit Growth **(CR_GROWTH_YY)** 
 
-<span style="background-color: #FFFF00">lm(NPL ~ GDP + WTI + X_RATE +CEM_SALES + M2_YYC + CR_GROWTH_YY)<span>
+_lm(NPL ~ GDP + WTI + X_RATE +CEM_SALES + M2_YYC + CR_GROWTH_YY)_
 
 Based on the Regression Diagnostics, this model (Model 1) does not violate any OLS assumptions.  
 - The model displays linearity
@@ -21,7 +21,7 @@ The p-value for the Shapiro-Wilk test is greater than 0.05, therefore we fail to
 Correlation Matrix shows that there is no strong correlation among features.
 Variance Inflation Factor values for all features/independent variables are less than 5.
 - The model is Homoscedastic.
-There are no clear patterns in the Residuals over time or Predicted values versus Residuals.
+There are no clear patterns in the Residuals over Time or Predicted values versus Residuals.
 The p-value from the Breusch-Pagan Test is greater than 0.05, therefore, we fail to reject the Null Hypothesis: Homoscedasticity is present.
 
 Model 1 was compared with another model (Model 2) which used the following list of features/independent variables:
