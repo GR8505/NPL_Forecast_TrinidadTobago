@@ -11,7 +11,7 @@ The following list of independent variables were used to predict Non-Performing 
 - M2 Money Supply Growth **(M2_YYC)** and 
 - Private Sector Credit Growth **(CR_GROWTH_YY)** 
 
-<mark>_lm(NPL ~ GDP + WTI + X_RATE +CEM_SALES + M2_YYC + CR_GROWTH_YY)_</mark>
+<span style="background-color: #FFFF00">_lm(NPL ~ GDP + WTI + X_RATE +CEM_SALES + M2_YYC + CR_GROWTH_YY)_<span>
 
 Based on the Regression Diagnostics, this model (Model 1) does not violate any OLS assumptions.  
 - The model displays linearity
