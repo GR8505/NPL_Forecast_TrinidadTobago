@@ -1,4 +1,4 @@
-# NPL_Forecast_TrinidadTobago
+# Forecasting Non-Performing Loans in Trinidad and Tobago
 
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/objects-on-workplace-BN2CQSC.jpg" alt="drawing" width="600"/>
 
