@@ -32,16 +32,16 @@ Based on the Regression Diagnostics **(Check Below)**, Model 1 does not violate 
 
 - The model displays linearity
 - Error terms are normally distributed.
-The p-value for the Shapiro-Wilk test is greater than 0.05, therefore we fail to reject the Null Hypothesis: Data is normally distributed.
+The p-value for the Shapiro-Wilk test is greater than 0.05, therefore I failed to reject the Null Hypothesis: Data is normally distributed.
 - No Multicollinearity Exists.
 Correlation Matrix shows that there is no strong correlation among features.
 Variance Inflation Factor (VIF) values for all features/independent variables are less than 5.
 - The model is Homoscedastic.
 There are no clear patterns in the Residuals over Time or Predicted values versus Residuals.
-The p-value from the Breusch-Pagan Test is greater than 0.05, therefore, we fail to reject the Null Hypothesis: Homoscedasticity is present.
+The p-value from the Breusch-Pagan Test is greater than 0.05, therefore, I failed to reject the Null Hypothesis: Homoscedasticity is present.
 
 
-While Model 2 boasted a better goodness of fit **(See Adjusted R-Squared in Regression Diagnostics below)** and a lower Akaike Information Criterion (AIC) value, it violates just one of the OLS assumptions.  Multicollinearity is present as both CR_GROWTH and M2 are strongly correlated and both of these features have VIF values greater than 10.
+While Model 2 boasted a better goodness of fit **(See Adjusted R-Squared in Regression Diagnostics below)** and a lower Akaike Information Criterion (AIC) value, it violates just one of the OLS assumptions.  Multicollinearity is present in Model 2, as both CR_GROWTH and M2 are strongly correlated and both of these features have VIF values greater than 10.
 
 **N.B** : VIF values below 10 are acceptable with any value below 5 being ideal.
 
