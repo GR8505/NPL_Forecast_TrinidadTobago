@@ -91,6 +91,7 @@ This is quite interesting because the common notion is that the expansion of the
 
 
 ### X_RATE ###
+<img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/close-up-fragment-of-currency-exchange-rates-board-2021-04-06-13-43-15-utc.jpg" alt="drawing" width="600" height="200"/>
 When the exchange rate increases, our domestic currency is devalued, which means that its purchasing power is diminished.  With this devaluation, imported goods and services are more expensive and due to the nation’s high food import bill, citizens have less available funds for savings and loan payments.  Furthermore, as Trinidad and Tobago’s exchange rate is handled on a ‘managed float’ system, a devaluation of the local currency rarely occurs during periods of economic prosperity.  Based on our history, the exchange rate is often increased only when it is absolutely necessary and this most likely occurs during periods of economic uncertainty.  
 
 And as previously discussed, economic challenges tend to come with job losses and reduced sales/business profits, which can all lead to missed loan payments and loan defaults.  The model illustrates that for every unit increase in the exchange rate, the mean NPL ratio declines by 1.476.
