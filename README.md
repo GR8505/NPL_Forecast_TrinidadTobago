@@ -98,10 +98,12 @@ And as previously discussed, economic challenges tend to come with job losses an
 
 
 ### CEM_SALES ###
+<img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/supply-of-cement-2021-04-03-14-01-07-utc.jpg" alt="drawing" width="600" height="200"/>
 This predictor makes economic sense as an uptick in cement sales is often an indicator of increased construction sector activity. As expected, the construction sector is a major contributor to jobs in the domestic economy and it also creates positive spill-over effects for other businesses like hardwares and steel retailers. In addition, more construction projects stimulate activity in transportation and other service-related industries.  Therefore, it comes as no surprise that local cement sales has an inverse relationship with NPL.  According to this regression model, for every sale of 1 Tonne of cement, the average NPL ratio declines by 1.4694.
 
 
 ### M2_YYC ###
+
 The growth in M2 money is often seen as a good proxy for heightened economic activity and generation of wealth. M2 is a broader measure of money which includes cash, checking deposits and easily convertible ‘near money’. The regression model reveals that for every 1 percent (year-on-year) increase in M2 money, the mean NPL ratio declines by 0.3973, holding all other variables constant.  This is possible as higher M2 money is indicative of a stronger economy, healthier business profits and an uptick in job creation, which all translate to a lower probability of delinquent loan payments.
 
 
