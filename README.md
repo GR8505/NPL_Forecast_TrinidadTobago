@@ -31,7 +31,7 @@ I developed two linear regression models to predict NPL.
 ---------------------------------------
 
 
-Based on the Regression Diagnostics **(Check Below)**, Model 1 does not violate any OLS assumptions.  
+Based on the Regression Diagnostics **(Check Below)**, Model 1 does not violate any **Ordinary Least Squares (OLS)** assumptions.  
 
 - The model displays linearity
 - Error terms are normally distributed.
@@ -44,7 +44,7 @@ There are no clear patterns in the Residuals over Time or Predicted values versu
 The p-value from the Breusch-Pagan Test is greater than 0.05, therefore, I failed to reject the Null Hypothesis: Homoscedasticity is present.
 
 
-While Model 2 boasted a better goodness of fit **(See Adjusted R-Squared in Regression Diagnostics below)** and a lower Akaike Information Criterion (AIC) value, it violates just one of the OLS assumptions.  Multicollinearity is present in Model 2, as both CR_GROWTH and M2 are strongly correlated and both of these features have VIF values greater than 10.
+While Model 2 boasted a better goodness of fit **(See Adjusted R-Squared in Regression Diagnostics below)** and a lower **Akaike Information Criterion (AIC)** value, it violates just one of the OLS assumptions.  Multicollinearity is present in Model 2, as both CR_GROWTH and M2 are strongly correlated and both of these features have VIF values greater than 10.
 
 **N.B** : VIF values below 10 are acceptable and any value below 5 is ideal.
 
@@ -70,24 +70,21 @@ While Model 2 boasted a better goodness of fit **(See Adjusted R-Squared in Regr
 ---------------------------------------------------------------------------
 
 ## Conclusison ##
-Despite this one violation, Model 2 can still be used for the purpose of forecasting.  
-
-While the statistical efficacy of Model 1 is more solid than that of Model 2, we must ensure that it makes sense in the real world.  Are these variables good predictors for NPL?
-
+Despite the one violation, Model 2 can still be used to provide forecasts.  However, I opted to use Model 1 as it upholds all OLS assumptions. While the statistical efficacy of Model 1 is more solid than that of Model 2, I had to ensure that it made sense in accordance with real world occurences.  Are these variables good predictors for NPLs?  Below, I explained why I thought that these variables were important to this model. 
 
 
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/gdp-text-2021-04-06-15-18-18-utc.jpg" alt="drawing" width="600" height="200"/>
 
-This regression model shows that for every unit increase in GDP, the mean NPL ratio declines by 0.5969, holding all other variables constant of course.  But from a macroeconomic perspective, is this a true reflection of what really occurs?
+This regression model shows that for every unit increase in GDP, the mean NPL ratio declines by 0.5969, holding all other variables constant, of course.  But from a macroeconomic perspective, is this a true reflection of what really occurs?
 
-From my understanding, economic growth can spur hiring and this equates to more wages earned by the working population.  Therefore, borrowers are more likely to consistently pay their monthly loan installments and are less inclined to default on their credit facilities during periods of economic prosperity.
+Economic growth can spur hiring and this equates to more wages earned by the working population.  Therefore, borrowers are able to make consistent loan payments and this helps to lower the rate of loan default. As a result, periods of economic prosperity can lead to lower NPL ratios.
 
 
 ### WTI ###
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/oil-prices-fall-concept-oil-barrel-against-declin-2021-06-01-23-09-43-utc.jpg" alt="drawing" width="600" height="200"/>
-Given that Trinidad and Tobago’s economy is mainly driven by its hydrocarbon sector, global energy prices may have a strong impact on the country’s economic welfare and thus, people’s ability to make timely payments on their loans.  However, according to this regression model, higher global oil prices causes NPL ratios in Trinidad and Tobago to increase. For every US$ increase in WTI, the average NPL ratio increases by 0.8818.  
+Given that Trinidad and Tobago’s economy is mainly driven by its hydrocarbon sector, global energy prices may have a strong impact on the country’s economic welfare and thus, people’s ability to make timely payments on their loans.  However, according to this regression model, global oil prices have a positive relationship with NPLs in Trinidad and Tobago. For every one(1) US$ increase in WTI, the average NPL ratio increases by 0.8818.  
 
-This is quite interesting because the common notion is that the expansion of the energy sector creates positive spill-over effects for other sectors like, construction, manufacturing and other services.  So, why do higher energy prices cause more default?  My only explanation for this is that possibly during these periods of high global energy prices, there are some slight shifts in the workforce as citizens trnasition from lower paying jobs in the non-energy sub-sectors to more lucrative employment opportunities in the energy sector and other energy-sector related jobs.  Also, due to the high volatility of global energy prices, the Trinidad and Tobago government moves swiftly to ensure maximum benefit from the hydrocarbon sector.  Thus, there is reduced investment and fewer government incentives for the local agriculture and manufacturing sectors.  
+This is quite interesting because the common notion is that the expansion of the energy sector creates a positive spill-over effect for other sectors like, construction, manufacturing and other services.  So, why do higher energy prices result in more laon defaults?  My only explanation for this is that during periods of high global energy prices, there are some slight shifts in the workforce.  For example, citizens may transition from lower paying jobs in the non-energy sub-sectors to more lucrative employment opportunities in the energy sector and other energy-sector related industries.  Also, due to the highly volatile of global energy prices, the Trinidad and Tobago government will often seek to gain maximum benefit manufacturing sectors.  
 
 
 ### X_RATE ###
