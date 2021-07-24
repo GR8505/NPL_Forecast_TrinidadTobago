@@ -113,7 +113,7 @@ The NPL ratio is non-performing loans as a percentage of total loans.  Given tha
 
 ![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/Ratio.png)
 
-If non-performing loans remain constant and the denominator increases, then this will result in a lower NPL ration.  In this model, a 1 percent increase in private sector credit growth will result in a decline in the average NPL ratio by 0.6199.
+If non-performing loans remain constant and the denominator increases, then this will result in a lower NPL ratio.  In this model, a 1 percent increase in private sector credit growth will result in a decline in the average NPL ratio by 0.6199.
 
 ------------------------------------------------------------------------------
 
