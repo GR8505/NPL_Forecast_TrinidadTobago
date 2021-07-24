@@ -41,7 +41,9 @@ There are no clear patterns in the Residuals over Time or Predicted values versu
 The p-value from the Breusch-Pagan Test is greater than 0.05, therefore, we fail to reject the Null Hypothesis: Homoscedasticity is present.
 
 
-While Model 2 boasted a better goodness of fit **(See Adjusted R-Squared in Regression Diagnostics below)** and a lower Akaike Information Criterion (AIC) value, it violates just one of the OLS assumptions.  Multicollinearity is present as  
+While Model 2 boasted a better goodness of fit **(See Adjusted R-Squared in Regression Diagnostics below)** and a lower Akaike Information Criterion (AIC) value, it violates just one of the OLS assumptions.  Multicollinearity is present as both CR_GROWTH and M2 are strongly correlated and both of these features have VIF values greater than 10.
+
+**N.B** : VIF values below 10 are acceptable with any value below 5 being ideal.
 
 
 ---------------------------------------------------------------------------------------
