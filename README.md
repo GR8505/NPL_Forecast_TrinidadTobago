@@ -15,7 +15,7 @@ _lm(NPL ~ GDP + WTI + X_RATE +CEM_SALES + M2_YYC + CR_GROWTH_YY)_
 
 _lm(NPL ~ CR_GROWTH + M2 + LAG_NPL)_
 
-|     |     |
+| **Feature** | Description |
 | --- | --- |
 | **GDP** | Real GDP Growth Constant Prices - % Change (year-on-year) |
 | **WTI** | West Texas Intermediate Oil Prices - US$ per barrel |
