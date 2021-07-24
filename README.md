@@ -1,17 +1,30 @@
 # NPL_Forecast_TrinidadTobago
-Using Predictive Analytics to forecast Non-Performing Loans Ratio in Trinidad and Tobago
+----------------------------------------------------------------------------------------
+**Objective:** Using Predictive Analytics to forecast Non-Performing Loans Ratio (NPL) in Trinidad and Tobago.
 
 ----------------------------------------------------------------------------------------
-## Executive Overview
-The following list of independent variables were used to predict Non-Performing Loans (NPL) in Trinidad and Tobago:
-- Real GDP Growth Constant Prices **(GDP)**
-- West Texas Intermediate Oil Prices **(WTI)**
-- Exchange Rate – US$/TT$ **(X_RATE)**
-- Local Cement Sales Tonnes **(CEM_SALES)**
-- M2 Money Supply Growth **(M2_YYC)** and 
-- Private Sector Credit Growth **(CR_GROWTH_YY)** 
+## Executive Overview 
+I developed two linear regression models to predict NPL.
 
+**Model 1**
 _lm(NPL ~ GDP + WTI + X_RATE +CEM_SALES + M2_YYC + CR_GROWTH_YY)_
+
+**Model 2**
+_lm(NPL ~ CR_GROWTH + M2 + LAG_NPL)_
+
+| --- | --- | 
+| **(GDP)** | Real GDP Growth Constant Prices - % Change (year-on-year) |
+
+---------------------------------------
+- Real GDP Growth Constant Prices - % Change (year-on-year) **(GDP)**
+- West Texas Intermediate Oil Prices - US$ per barrel **(WTI)**
+- Exchange Rate – US$/TT$ **(X_RATE)**
+- Local Cement Sales - Tonnes **(CEM_SALES)**
+- M2 Money Supply Growth - % Change (year-on-year) **(M2_YYC)** and 
+- Private Sector Credit Growth - % Change (year-on-year) **(CR_GROWTH_YY)** 
+
+
+
 
 Based on the Regression Diagnostics, this model (Model 1) does not violate any OLS assumptions.  
 - The model displays linearity
