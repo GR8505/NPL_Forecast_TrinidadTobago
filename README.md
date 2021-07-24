@@ -76,7 +76,7 @@ While the statistical efficacy of Model 1 is more solid than that of Model 2, we
 
 
 
-<img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/gdp-text-2021-04-06-15-18-18-utc.jpg" alt="drawing" width="800" height="200"/>
+<img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/gdp-text-2021-04-06-15-18-18-utc.jpg" alt="drawing" width="600" height="200"/>
 
 This regression model shows that for every unit increase in GDP, the mean NPL ratio declines by 0.5969, holding all other variables constant of course.  But from a macroeconomic perspective, is this a true reflection of what really occurs?
 
@@ -84,7 +84,7 @@ From my understanding, economic growth can spur hiring and this equates to more 
 
 
 ### WTI ###
-<img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/oil-prices-fall-concept-oil-barrel-against-declin-2021-06-01-23-09-43-utc.jpg" alt="drawing" width="800" height="200"/>
+<img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/oil-prices-fall-concept-oil-barrel-against-declin-2021-06-01-23-09-43-utc.jpg" alt="drawing" width="600" height="200"/>
 Given that Trinidad and Tobago’s economy is mainly driven by its hydrocarbon sector, global energy prices may have a strong impact on the country’s economic welfare and thus, people’s ability to make timely payments on their loans.  However, according to this regression model, higher global oil prices causes NPL ratios in Trinidad and Tobago to increase. For every US$ increase in WTI, the average NPL ratio increases by 0.8818.  
 
 This is quite interesting because the common notion is that the expansion of the energy sector creates positive spill-over effects for other sectors like, construction, manufacturing and other services.  So, why do higher energy prices cause more default?  My only explanation for this is that possibly during these periods of high global energy prices, there are some slight shifts in the workforce as citizens trnasition from lower paying jobs in the non-energy sub-sectors to more lucrative employment opportunities in the energy sector and other energy-sector related jobs.  Also, due to the high volatility of global energy prices, the Trinidad and Tobago government moves swiftly to ensure maximum benefit from the hydrocarbon sector.  Thus, there is reduced investment and fewer government incentives for the local agriculture and manufacturing sectors.  
