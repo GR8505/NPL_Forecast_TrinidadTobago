@@ -6,14 +6,11 @@
 ## Executive Overview 
 I developed two linear regression models to predict NPL.
 
-**Model 1**
 
-_lm(NPL ~ GDP + WTI + X_RATE +CEM_SALES + M2_YYC + CR_GROWTH_YY)_
+**Model 1** : _lm(NPL ~ GDP + WTI + X_RATE +CEM_SALES + M2_YYC + CR_GROWTH_YY)_
 
+**Model 2** : _lm(NPL ~ CR_GROWTH + M2 + LAG_NPL)_
 
-**Model 2**
-
-_lm(NPL ~ CR_GROWTH + M2 + LAG_NPL)_
 
 | **Feature** | Description |
 | --- | --- |
@@ -31,27 +28,20 @@ _lm(NPL ~ CR_GROWTH + M2 + LAG_NPL)_
 ---------------------------------------
 
 
+Based on the Regression Diagnostics **(Check Below)**, Model 1 does not violate any OLS assumptions.  
 
-
-
-
-Based on the Regression Diagnostics, this model (Model 1) does not violate any OLS assumptions.  
 - The model displays linearity
 - Error terms are normally distributed.
 The p-value for the Shapiro-Wilk test is greater than 0.05, therefore we fail to reject the Null Hypothesis: Data is normally distributed.
 - No Multicollinearity Exists.
 Correlation Matrix shows that there is no strong correlation among features.
-Variance Inflation Factor values for all features/independent variables are less than 5.
+Variance Inflation Factor (VIF) values for all features/independent variables are less than 5.
 - The model is Homoscedastic.
 There are no clear patterns in the Residuals over Time or Predicted values versus Residuals.
 The p-value from the Breusch-Pagan Test is greater than 0.05, therefore, we fail to reject the Null Hypothesis: Homoscedasticity is present.
 
-Model 1 was compared with another model (Model 2) which used the following list of features/independent variables:
-- Lagged Non-Performing Loans (LAG_NPL)
-- M2 Money Supply – TT$ Million (M2) and 
-- Private Sector Credit – TT$ Million (CR_GROWTH) as predictors for NPL
 
-While Model 2 boasted a better goodness of fit (See Adjusted R-Squared in Regression Diagnostics below) and a lower Akaike Information Criterion (AIC) value compared to Model 1, it violates just one of the OLS assumptions, which is no multicollinearity.  
+While Model 2 boasted a better goodness of fit **(See Adjusted R-Squared in Regression Diagnostics below)** and a lower Akaike Information Criterion (AIC) value, it violates just one of the OLS assumptions.  Multicollinearity is present as  
 
 
 ---------------------------------------------------------------------------------------
