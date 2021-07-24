@@ -15,6 +15,7 @@ _lm(NPL ~ GDP + WTI + X_RATE +CEM_SALES + M2_YYC + CR_GROWTH_YY)_
 
 _lm(NPL ~ CR_GROWTH + M2 + LAG_NPL)_
 
+|     |     |
 | --- | --- |
 | **GDP** | Real GDP Growth Constant Prices - % Change (year-on-year) |
 | **WTI** | West Texas Intermediate Oil Prices - US$ per barrel |
@@ -25,7 +26,7 @@ _lm(NPL ~ CR_GROWTH + M2 + LAG_NPL)_
 | **CR_GROWTH** | Private Sector Credit - TT$ Million |
 | **M2** | Money Supply - TT$ Million |
 | **LAG_NPL** | Non-Performing Loans Ratio Lagged by one (1) year |
-| --- | --- | 
+
 
 ---------------------------------------
 
