@@ -1,6 +1,7 @@
 # NPL_Forecast_TrinidadTobago
 
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/objects-on-workplace-BN2CQSC.jpg" alt="drawing" width="600"/>
+
 ----------------------------------------------------------------------------------------
 **Objective:** Using Predictive Analytics to forecast Non-Performing Loans Ratio (NPL) in Trinidad and Tobago.
 
