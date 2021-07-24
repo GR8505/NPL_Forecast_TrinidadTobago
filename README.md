@@ -7,13 +7,16 @@
 I developed two linear regression models to predict NPL.
 
 **Model 1**
+
 _lm(NPL ~ GDP + WTI + X_RATE +CEM_SALES + M2_YYC + CR_GROWTH_YY)_
 
 **Model 2**
+
 _lm(NPL ~ CR_GROWTH + M2 + LAG_NPL)_
 
-| --- | --- | 
+
 | **(GDP)** | Real GDP Growth Constant Prices - % Change (year-on-year) |
+| --- | --- | 
 
 ---------------------------------------
 - Real GDP Growth Constant Prices - % Change (year-on-year) **(GDP)**
