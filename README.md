@@ -46,7 +46,7 @@ The p-value from the Breusch-Pagan Test is greater than 0.05, therefore, I faile
 
 While Model 2 boasted a better goodness of fit **(See Adjusted R-Squared in Regression Diagnostics below)** and a lower Akaike Information Criterion (AIC) value, it violates just one of the OLS assumptions.  Multicollinearity is present in Model 2, as both CR_GROWTH and M2 are strongly correlated and both of these features have VIF values greater than 10.
 
-**N.B** : VIF values below 10 are acceptable with any value below 5 being ideal.
+**N.B** : VIF values below 10 are acceptable and any value below 5 is ideal.
 
 
 ---------------------------------------------------------------------------------------
