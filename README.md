@@ -103,11 +103,12 @@ This predictor makes economic sense as an uptick in cement sales is often an ind
 
 
 ### M2_YYC ###
-
+<img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/tumbler-on-a-vault-door-2021-04-05-08-15-25-utc.jpg" alt="drawing" width="600" height="200"/>
 The growth in M2 money is often seen as a good proxy for heightened economic activity and generation of wealth. M2 is a broader measure of money which includes cash, checking deposits and easily convertible ‘near money’. The regression model reveals that for every 1 percent (year-on-year) increase in M2 money, the mean NPL ratio declines by 0.3973, holding all other variables constant.  This is possible as higher M2 money is indicative of a stronger economy, healthier business profits and an uptick in job creation, which all translate to a lower probability of delinquent loan payments.
 
 
-### CR_GROWTH_YY
+### CR_GROWTH_YY ###
+
 The NPL ratio is non-performing loans as a percentage of total loans.  Given that private sector credit growth can lead to a higher total loans value, this will definitely have a negative effect on NPL. 
 
 ![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/Ratio.png)
