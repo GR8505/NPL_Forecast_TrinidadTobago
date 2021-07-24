@@ -76,6 +76,8 @@ While the statistical efficacy of Model 1 is more solid than that of Model 2, we
 
 
 ### GDP ###
+<img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/gdp-text-2021-04-06-15-18-18-utc.jpg" alt="drawing"/>
+
 This regression model shows that for every unit increase in GDP, the mean NPL ratio declines by 0.5969, holding all other variables constant of course.  But from a macroeconomic perspective, is this a true reflection of what really occurs?
 
 From my understanding, economic growth can spur hiring and this equates to more wages earned by the working population.  Therefore, borrowers are more likely to consistently pay their monthly loan installments and are less inclined to default on their credit facilities during periods of economic prosperity.
