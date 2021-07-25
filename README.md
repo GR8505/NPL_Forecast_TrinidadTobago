@@ -70,7 +70,7 @@ While Model 2 boasted a better goodness of fit **(See Adjusted R-Squared in Regr
 ---------------------------------------------------------------------------
 
 ## Conclusison ##
-Despite the one violation, Model 2 can still be used to provide forecasts.  However, I opted to use Model 1 as it upholds all OLS assumptions. While the statistical efficacy of Model 1 is more solid than that of Model 2, I had to ensure that it made sense in accordance with real world occurences.  Are these variables good predictors for NPLs?  Below, I explained why I thought that these variables were important to this model. 
+Despite the one violation, Model 2 can still be used to provide forecasts.  However, I opted to use Model 1 as it upholds all OLS assumptions. While the statistical efficacy of Model 1 is more solid than that of Model 2, I still had to ensure that it made sense in accordance with real world occurences.  Are these variables good predictors for NPLs?  Below, I explained why I thought that these variables were important to this model. 
 
 
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/gdp-text-2021-04-06-15-18-18-utc.jpg" alt="drawing" width="600" height="200"/>
