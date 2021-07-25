@@ -77,7 +77,9 @@ Despite the one violation, Model 2 can still be used to provide forecasts.  Howe
 
 This regression model shows that for every unit increase in GDP, the mean NPL ratio declines by 0.5969, holding all other variables constant, of course.  But from a macroeconomic perspective, is this a true reflection of what really occurs?
 
-Economic growth can spur hiring and this equates to more wages earned by the working population.  Therefore, borrowers are able to make consistent loan payments and this helps to lower the rate of loan default. As a result, periods of economic prosperity can lead to lower NPL ratios.
+Economic growth can create new jobs and this equates to more wages earned by the working population.  Therefore, more people can now qualify for credit facilities and this increases the denominator (Total Loans) for the NPL ratio.
+![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/Ratio.png)
+borrowers are able to make consistent loan payments and this helps to lower the rate of loan default. As a result, periods of economic prosperity can lead to lower NPL ratios.
 
 
 ### WTI ###
@@ -108,7 +110,7 @@ The growth in M2 money is often seen as a good proxy for heightened economic act
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/estate-agent-are-presenting-home-loan-to-client-an-45QXF26.jpg" alt="drawing" width="600" height="200"/>
 The NPL ratio is non-performing loans as a percentage of total loans.  Given that private sector credit growth can lead to a higher total loans value, this will definitely have a negative effect on NPL. 
 
-![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/Ratio.png)
+
 
 If non-performing loans remain constant and the denominator increases, then this will result in a lower NPL ratio.  In this model, a 1 percent increase in private sector credit growth will result in a decline in the average NPL ratio by 0.6199.
 
