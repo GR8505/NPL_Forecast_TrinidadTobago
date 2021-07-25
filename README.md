@@ -118,7 +118,7 @@ If non-performing loans remain constant and the denominator increases, then this
 
 ------------------------------------------------------------------------------
 
-Thus, these features seem to be logical in accordance with real world economic occurences.
+Thus, these features seem to be logical and move in accordance with real world economic occurences.
 
 Going forward, my goal is to develop a similar model for tourism-dependent economies in the Caribbean.  I suspect that tourist arrivals will probably be a main predictor in the model.
 
