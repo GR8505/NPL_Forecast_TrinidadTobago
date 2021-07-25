@@ -89,7 +89,12 @@ Furthermore, as people earn more money during periods of economic prosperity, th
 
 Given that Trinidad and Tobago’s economy is mainly driven by its hydrocarbon sector, global energy prices may have a strong impact on the country’s economic welfare and thus, people’s ability to make timely payments on their loans.  However, according to this regression model, global oil prices have a positive relationship with NPLs in Trinidad and Tobago. For every one(1) US$ increase in WTI, the average NPL ratio increases by 0.8818.  
 
-This is quite interesting because the common notion is that the expansion of the energy sector creates a positive spill-over effect for other sectors like, construction, manufacturing and other services.  So, why does this model imply that higher energy prices result in a higher NPL ratio?  My only explanation for this is that during periods of high global energy prices, there are some slight shifts in the workforce.  For example, citizens may transition from lower paying jobs in the non-energy sub-sectors to more lucrative employment opportunities in the energy sector and other energy-sector related industries.  Also, due to the highly volatile nature of the global energy market, the Trinidad and Tobago government will often seek to gain maximum benefit during periods of high prices.  Consequently, government policies will switch to favour energy sector growth and fewer incentives will go toward non-energy sub-sectors.
+This is quite interesting because the common notion is that the expansion of the energy sector creates a positive spill-over effect for other sectors like, construction, manufacturing and other services.  So, why does this model imply that there is apositive realtionship between energy prices and the NPL ratio?  
+Here are some of my reasons for this:
+- Due to the highly volatile nature of the global energy market, the Trinidad and Tobago government will often seek to gain maximum benefit during periods of high energy prices.  Consequently, government policies will often switch to favour energy sector growth and fewer incentives will go toward non-energy sub-sectors.  These non-energy subsectors like, construction, manufacturing and distribution are some of the main contributors of jobs for this jurisdiction
+- My only explanation for this is that during periods of high global energy prices, there are some slight shifts in the workforce.  
+- 
+For example, citizens may transition from lower paying jobs in the non-energy sub-sectors to more lucrative employment opportunities in the energy sector and other energy-sector related industries.  Also, 
 
 
 ### X_RATE ###
