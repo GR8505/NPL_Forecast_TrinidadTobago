@@ -87,7 +87,7 @@ Furthermore, as people earn more money during periods of economic prosperity, th
 ### WTI ###
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/oil-prices-fall-concept-oil-barrel-against-declin-2021-06-01-23-09-43-utc.jpg" alt="drawing" width="600" height="200"/>
 
-Given that Trinidad and Tobago’s economy is mainly driven by its hydrocarbon sector, global energy prices may have a strong impact on the country’s economic welfare and thus, people’s ability to make timely payments on their loans.  However, according to this regression model, global oil prices have a positive relationship with NPLs in Trinidad and Tobago. For every one(1) US$ increase in WTI, the average NPL ratio increases by 0.8818.  
+Given that Trinidad and Tobago’s economy is driven mainly by its hydrocarbon sector, global energy prices may have a strong impact on the country’s economic welfare and thus, people’s ability to make timely payments on their loans.  However, according to this regression model, global oil prices have a positive relationship with NPLs in Trinidad and Tobago. For every one(1) US$ increase in WTI, the average NPL ratio increases by 0.8818.  
 
 This is quite interesting because the common notion is that the expansion of the energy sector creates a positive spill-over effect for other sectors like, construction, manufacturing and other services.  So, why does this model imply that there is a positive realtionship between energy prices and the NPL ratio?  
 My only explanation for this is as follows:
