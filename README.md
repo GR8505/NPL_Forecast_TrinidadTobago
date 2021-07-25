@@ -81,7 +81,7 @@ Economic growth can create new jobs and this equates to more wages earned by the
 
 ![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/Ratio.png)
 
-Furthermore, as people earn more money during periods of economic prosperity, they are able to make consistent loan payments and this helps to lower the rate of loan default. As a result, economic expansion can potentially lead to reduced NPL ratios.
+Furthermore, as people earn more money during periods of economic prosperity, they are able to make consistent loan payments and this helps to lower the rate of loan default. As a result, economic expansion can lower the value of non-performing loans and also increase the value of total loans, and thus potentially lead to reduced NPL ratios.
 
 
 ### WTI ###
