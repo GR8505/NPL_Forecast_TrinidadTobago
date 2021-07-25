@@ -91,13 +91,13 @@ Given that Trinidad and Tobago’s economy is driven mainly by its hydrocarbon s
 
 This is quite interesting because the common notion is that the expansion of the energy sector creates a positive spill-over effect for other sectors like, construction, manufacturing and other services.  So, why does this model imply that there is a positive relationship between energy prices and the NPL ratio?  
 My only explanation for this is as follows:
-- Both Prime and Weighted Average Lending Rates have inverse relationships with WTI. But, lower lending rates encourage higher levels of private sector credit growth. Initially, this will be a good thing as total loans increase, thus lowering the NPL ratio.  However, as loan growth increases, the risk of default also increases.  Therefore, it is highly likely that the loan growth experienced during periods of favourable energy prices, crosses a particular "risk-averse" lending threshold.  As a result, we begin to witness an increasing number of "bad loans" on the books beyond this point.  
-- Also, the extremely high level of economic prosperity that comes with favourable energy prices can also create a false sense of security among citizens.  As economists, we cannot ignore the psychological aspect and yes, as energy is the backbone of Trinidad and Tobago's economy, complacency among citizens can begin to take hold during periods of high global oil prices. Consequently, this complacency can possibly manifest itself via poor management of finances, which can sometimes lead to delayed loan installments or loan defaults.
+- Both Prime and Weighted Average Lending Rates have inverse relationships with WTI and lower lending rates encourage higher levels of private sector credit growth. Initially, this will be a good thing as total loans increase, thus lowering the NPL ratio.  However, as loan growth increases, the risk of default also increases.  Therefore, it is possible that the loan growth experienced during periods of favourable energy prices, crosses a particular threshold that encourages more "bad loans" on the books. 
+- Also, is it possible that the economic prosperity that comes with favourable energy prices creates a false sense of security among citizens.  As economists, we cannot ignore the psychological aspect and yes, as energy is the backbone of Trinidad and Tobago's economy, complacency among citizens can begin to take hold during periods of high global oil prices. Consequently, this complacency may manifest itself via poor management of finances, which can sometimes lead to delayed loan installments and/or even loan defaults.
 
 
 ### X_RATE ###
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/close-up-fragment-of-currency-exchange-rates-board-2021-04-06-13-43-15-utc.jpg" alt="drawing" width="600" height="200"/>
-The model illustrates that for every one (1) dollar increase in the exchange rate, the mean NPL ratio declines by 1.476.
+This model illustrates that for every one (1) dollar increase in the exchange rate, the mean NPL ratio declines by 1.476.  More investigation is required on this variable but some studies have shown that a depreciation of the currency can lead to lower NPLs in financial systems with low foreign currency-denominated loans.
 
 
 ### CEM_SALES ###
