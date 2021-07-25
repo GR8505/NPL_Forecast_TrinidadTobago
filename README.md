@@ -19,7 +19,7 @@ I developed two linear regression models to predict NPL.
 | --- | --- |
 | **GDP** | Real GDP Growth Constant Prices - % Change (year-on-year) |
 | **WTI** | West Texas Intermediate Oil Prices - US$ per barrel |
-| **X_RATE** | Exchange Rate – US$/TT$ |
+| **X_RATE** | Exchange Rate – TT$/US$ |
 | **CEM_SALES** | Local Cement Sales - Tonnes |
 | **M2_YYC** | M2 Money Supply Growth - % Change (year-on-year) |
 | **CR_GROWTH_YY** | Private Sector Credit Growth - % Change (year-on-year) |
