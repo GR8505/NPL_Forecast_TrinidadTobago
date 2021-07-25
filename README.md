@@ -78,8 +78,10 @@ Despite the one violation, Model 2 can still be used to provide forecasts.  Howe
 This regression model shows that for every unit increase in GDP, the mean NPL ratio declines by 0.5969, holding all other variables constant, of course.  But from a macroeconomic perspective, is this a true reflection of what really occurs?
 
 Economic growth can create new jobs and this equates to more wages earned by the working population.  Therefore, more people can now qualify for credit facilities and this increases the denominator (Total Loans) for the NPL ratio.
+
 ![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/Ratio.png)
-borrowers are able to make consistent loan payments and this helps to lower the rate of loan default. As a result, periods of economic prosperity can lead to lower NPL ratios.
+
+Furthermore, as people earn more money during periods of economic prosperity, they are able to make consistent loan payments and this helps to lower the rate of loan default. As a result, economic expansion can potentially lead to reduced NPL ratios.
 
 
 ### WTI ###
