@@ -107,7 +107,13 @@ This predictor makes economic sense as an uptick in cement sales is often an ind
 
 ### M2_YYC ###
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/tumbler-on-a-vault-door-2021-04-05-08-15-25-utc.jpg" alt="drawing" width="600" height="200"/>
-The growth in M2 money is often seen as a good proxy for heightened economic activity and generation of wealth. M2 is a broader measure of money which includes cash, checking deposits and easily convertible ‘near money’. The regression model reveals that for every 1 percent (year-on-year) increase in M2 money, the mean NPL ratio declines by 0.3973, holding all other variables constant.  This is possible as higher M2 money is indicative of a stronger economy, healthier business profits and an uptick in job creation, which all translate to a lower probability of loan delinquency. Also, a stronger job market is often linked to higher levels of private sector credit, which lowers the NPL ratio due to a higher "denominator-effect".
+The growth in M2 money is often seen as a good proxy for heightened economic activity and generation of wealth. M2 is a broader measure of money which includes cash, checking deposits and easily convertible ‘near money’. The regression model reveals that for every 1 percent (year-on-year) increase in M2 money, the mean NPL ratio declines by 0.3973, holding all other variables constant.  This is possible as higher M2 money is indicative of a stronger economy, healthier business profits and an uptick in job creation, which all translate to a lower probability of loan delinquency. 
+
+In a healthy business environment, higher profits mean that corporate and commercial loan payments are upheld, which translates to lower delinquency rates.  Also, companies that plan to expand its operations, possess requisite leverage to obtain credit facilities.  This will result in higher loan balances and thus lower the NPL ratio, as the denominator in the formula increases.
+
+![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/Ratio.png)
+
+A healthier business environment also leads to more hiring in Trinidad and Tobago and as previously discussed a stronger job market is often linked to higher levels of loan balances, which lowers the NPL ratio due to a higher "denominator-effect". As people make more money, they make apply for loans to purchase a car, furniture, or even mortgages and home renovation loans.
 
 
 ### CR_GROWTH_YY ###
