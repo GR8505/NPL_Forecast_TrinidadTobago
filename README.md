@@ -7,12 +7,10 @@
 
 ----------------------------------------------------------------------------------------
 ## Executive Overview 
-I developed two linear regression models to predict NPL.
+I developed a linear regression models to predict NPL.
 
 
-**Model 1** : _lm(NPL ~ GDP + WTI + X_RATE +CEM_SALES + M2_YYC + CR_GROWTH_YY)_
-
-**Model 2** : _lm(NPL ~ CR_GROWTH + M2 + LAG_NPL)_
+**Model** : _lm(NPL ~ GDP + WTI + X_RATE +CEM_SALES + M2_YYC + CR_GROWTH_YY)_
 
 
 | **Feature** | Description |
@@ -28,7 +26,7 @@ I developed two linear regression models to predict NPL.
 ---------------------------------------
 
 
-Based on the Regression Diagnostics **(Check Below)**, Model 1 does not violate any **Ordinary Least Squares (OLS)** assumptions.  
+Based on the Regression Diagnostics **(Check Below)**, the Model does not violate any **Ordinary Least Squares (OLS)** assumptions.  
 
 - The model displays linearity
 - Error terms are normally distributed.
@@ -50,9 +48,8 @@ While Model 2 boasted a better goodness of fit **(See Adjusted R-Squared in Regr
 
 ## Regression Diagnostics ##
 
-|           |  Model 1 |  Model 2 |
+|           |  Train |  Test |
 | --- | --- | --- |
-| Equation | lm(NPL ~ GDP + WTI + X_RATE + CEM_SALES + M2_YYC + CR_GROWTH_YY) | lm(NPL ~ CR_GROWTH + M2 + LAG_NPL) |
 | Regression Summary | <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/ModelA1_Summary.png" alt="drawing" width="400"/> | <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/ModelB2_Summary.png" alt="drawing" width="550"/> |
 | Mean Squared Error | 2.10 | 0.25 |
 | Linearity | <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/ModelA1_Linearity.png" alt="drawing" width="400"/> | <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/ModelB2_Linearity.png" alt="drawing" width="600"/> |
