@@ -23,9 +23,6 @@ I developed two linear regression models to predict NPL.
 | **CEM_SALES** | Local Cement Sales - Tonnes |
 | **M2_YYC** | M2 Money Supply Growth - % Change (year-on-year) |
 | **CR_GROWTH_YY** | Private Sector Credit Growth - % Change (year-on-year) |
-| **CR_GROWTH** | Private Sector Credit - TT$ Million |
-| **M2** | Money Supply - TT$ Million |
-| **LAG_NPL** | Non-Performing Loans Ratio Lagged by one (1) year |
 
 
 ---------------------------------------
