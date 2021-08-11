@@ -68,7 +68,7 @@ Therefore, I swapped Cement Sales for Unemployment Rate.
 ---------------------------------------------------------------------------
 
 ## Conclusion ##
-Despite the one violation, Model 2 can still be used to provide forecasts.  However, I opted to use Model 1 as it upholds all OLS assumptions. While the statistical efficacy of Model 1 is more solid than that of Model 2, I still had to ensure that it lined up with real-world developments.  Are these variables good predictors for NPLs?  Below, I explained why I thought that these variables were important to this model. 
+While the statistical efficacy of this model is solid, I still had to ensure that it lined up with real-world developments.  Are these variables good predictors for NPLs?  Below, I explained why I thought that these variables were important to this model. 
 
 
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/gdp-text-2021-04-06-15-18-18-utc.jpg" alt="drawing" width="600" height="200"/>
@@ -98,9 +98,9 @@ My only explanation for this is as follows:
 This model illustrates that for every one (1) dollar increase in the exchange rate, the mean NPL ratio declines by 1.476.  More investigation is required on this variable but some studies have shown that a depreciation of the currency can lead to lower NPLs in financial systems with low foreign currency-denominated loans.
 
 
-### CEM_SALES ###
+### U_RATE ###
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/supply-of-cement-2021-04-03-14-01-07-utc.jpg" alt="drawing" width="600" height="200"/>
-This predictor makes economic sense as an uptick in cement sales is often an indicator of increased construction sector activity. As expected, the construction sector is a major contributor to jobs in the domestic economy and it also creates positive spill-over effects for other businesses like hardwares and steel retailers. In addition, more construction projects stimulate activity in transportation and other service-related industries.  Therefore, it comes as no surprise that local cement sales has an inverse relationship with NPL.  According to this regression model, for every sale of 1 Tonne of cement, the average NPL ratio declines by 1.4694.
+
 
 
 ### M2_YYC ###
