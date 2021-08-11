@@ -37,7 +37,7 @@ Variance Inflation Factor (VIF) values for all features/independent variables ar
 
 **N.B** : VIF values below 10 are acceptable and any value below 5 is considered to be ideal.
 - The model is Homoscedastic.
-There are no clear patterns in the Residuals over Time or Predicted values versus Residuals.
+There are no clear patterns in the Predicted values versus Residuals.
 The p-value from the Breusch-Pagan Test is greater than 0.05, therefore, I failed to reject the Null Hypothesis: Homoscedasticity is present.
 
 
