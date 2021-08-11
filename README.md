@@ -18,7 +18,7 @@ I developed a linear regression models to predict NPL.
 | **GDP** | Real GDP Growth Constant Prices - % Change (year-on-year) |
 | **WTI** | West Texas Intermediate Oil Prices - US$ per barrel |
 | **X_RATE** | Exchange Rate – TT$/US$ |
-| **CEM_SALES** | Local Cement Sales - Tonnes |
+| **U_RATE** | LUnemployment Rate - Average % |
 | **M2_YYC** | M2 Money Supply Growth - % Change (year-on-year) |
 | **CR_GROWTH_YY** | Private Sector Credit Growth - % Change (year-on-year) |
 
@@ -34,14 +34,17 @@ The p-value for the Shapiro-Wilk test is greater than 0.05, therefore I failed t
 - No Multicollinearity Exists.
 Correlation Matrix shows that there is no strong correlation among features.
 Variance Inflation Factor (VIF) values for all features/independent variables are less than 5.
+**N.B** : VIF values below 10 are acceptable and any value below 5 is considered to be ideal.
 - The model is Homoscedastic.
 There are no clear patterns in the Residuals over Time or Predicted values versus Residuals.
 The p-value from the Breusch-Pagan Test is greater than 0.05, therefore, I failed to reject the Null Hypothesis: Homoscedasticity is present.
 
 
-While Model 2 boasted a better goodness of fit **(See Adjusted R-Squared in Regression Diagnostics below)** and a lower **Akaike Information Criterion (AIC)** value, it violates just one of the OLS assumptions.  Multicollinearity is present in Model 2, as both CR_GROWTH and M2 are strongly correlated and both of these features have VIF values greater than 10.
+Looking at the performance of the model, it performs better on the test set compared to the training set.
+Initially, I used Cement Sales as one of the independent variables but on closer introspection, changes in cement sales does not directly affect Non-Performing Loans.
+Cement Sales is often a good proxy for construction sector activity and this industry is a major employer in the Trinidad and Tobago economy.
 
-**N.B** : VIF values below 10 are acceptable and any value below 5 is considered to be ideal.
+Therefore, I swapped Cement Sales for Unemployment Rate.
 
 
 ---------------------------------------------------------------------------------------
