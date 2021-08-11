@@ -99,7 +99,7 @@ This model illustrates that for every one (1) dollar increase in the exchange ra
 
 
 ### U_RATE ###
-<img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/supply-of-cement-2021-04-03-14-01-07-utc.jpg" alt="drawing" width="600" height="200"/>
+<img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/termination-of-employment-RHBTVY4.jpg" alt="drawing" width="600" height="200"/>
 
 
 
