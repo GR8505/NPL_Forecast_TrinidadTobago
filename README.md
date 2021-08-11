@@ -34,6 +34,7 @@ The p-value for the Shapiro-Wilk test is greater than 0.05, therefore I failed t
 - No Multicollinearity Exists.
 Correlation Matrix shows that there is no strong correlation among features.
 Variance Inflation Factor (VIF) values for all features/independent variables are less than 5.
+
 **N.B** : VIF values below 10 are acceptable and any value below 5 is considered to be ideal.
 - The model is Homoscedastic.
 There are no clear patterns in the Residuals over Time or Predicted values versus Residuals.
@@ -73,52 +74,50 @@ While the statistical efficacy of this model is solid, I still had to ensure tha
 
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/gdp-text-2021-04-06-15-18-18-utc.jpg" alt="drawing" width="600" height="200"/>
 
-This regression model shows that for every unit increase in GDP, the mean NPL ratio declines by 0.5969, holding all other variables constant, of course.  But from a macroeconomic perspective, is this a true reflection of what really occurs?
+This regression model shows that for every unit increase in GDP, the mean NPL ratio declines by 0.1209, holding all other variables constant, of course.  But from a macroeconomic perspective, is this a true reflection of what really occurs?
 
 Economic growth can create new jobs and this equates to more wages earned by the working population.  Therefore, more people can now qualify for credit facilities and this increases the denominator (Total Loans) for the NPL ratio.
 
 ![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/Ratio.png)
 
-Furthermore, as people earn more money during periods of economic prosperity, they are able to make consistent loan payments and this helps to lower the rate of loan default. As a result, economic expansion can lower the value of non-performing loans and also increase the value of total loans, and thus potentially lead to reduced NPL ratios.
+Furthermore, as people earn more money during periods of economic prosperity, they are able to make consistent loan payments and this helps to lower the rate of loan default. As a result, economic expansion can lower the value of non-performing loans (numerator) and also increase the value of total loans, and thus potentially lead to reduced NPL ratios.
 
 
 ### WTI ###
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/oil-prices-fall-concept-oil-barrel-against-declin-2021-06-01-23-09-43-utc.jpg" alt="drawing" width="600" height="200"/>
 
-Given that Trinidad and Tobago’s economy is driven mainly by its hydrocarbon sector, global energy prices may have a strong impact on the country’s economic welfare and thus, people’s ability to make timely payments on their loans.  However, according to this regression model, global oil prices have a positive relationship with NPLs in Trinidad and Tobago. For every one(1) US$ increase in WTI, the average NPL ratio increases by 0.8818.  
+Given that Trinidad and Tobago’s economy is driven mainly by its hydrocarbon sector, global energy prices may have a strong impact on the country’s economic welfare and thus, people’s ability to make timely payments on their loans.  However, according to this regression model, global oil prices have a positive relationship with NPLs in Trinidad and Tobago. For every one(1) US$ increase in WTI, the average NPL ratio increases by 0.0206.  
 
 This is quite interesting because the common notion is that the expansion of the energy sector creates a positive spill-over effect for other sectors like, construction, manufacturing and other services.  So, why does this model imply that there is a positive relationship between energy prices and the NPL ratio?  
 My only explanation for this is as follows:
 - Both Prime and Weighted Average Lending Rates have inverse relationships with WTI and lower lending rates encourage higher levels of private sector credit growth. Initially, this will be a good thing as total loans increase, thus lowering the NPL ratio.  However, as loan growth increases, the risk of default also increases.  Therefore, it is possible that the loan growth experienced during periods of favourable energy prices, crosses a particular threshold that encourages more "bad loans" on the books. 
-- Also, is it possible that the economic prosperity that comes with favourable energy prices creates a false sense of security among citizens?  As economists, we cannot ignore the psychological aspect and yes, as energy is the backbone of Trinidad and Tobago's economy, complacency among citizens can begin to take hold during periods of high global oil prices. Consequently, this complacency may manifest itself via poor management of finances, which can sometimes lead to delayed loan installments and/or even loan defaults.
-
-
-### X_RATE ###
-<img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/close-up-fragment-of-currency-exchange-rates-board-2021-04-06-13-43-15-utc.jpg" alt="drawing" width="600" height="200"/>
-This model illustrates that for every one (1) dollar increase in the exchange rate, the mean NPL ratio declines by 1.476.  More investigation is required on this variable but some studies have shown that a depreciation of the currency can lead to lower NPLs in financial systems with low foreign currency-denominated loans.
+- Also, is it possible that the economic prosperity that comes with favourable energy prices creates a false sense of security among citizens?  As economists, we cannot ignore the psychological aspect and yes, as energy is the backbone of Trinidad and Tobago's economy, complacency among citizens can begin to take hold during periods of high global oil prices. Consequently, this complacency may manifest itself via poor management of finances, which can sometimes lead to overspending and lack of discipline/commitment in meeting one's loan installments.
 
 
 ### U_RATE ###
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/termination-of-employment-RHBTVY4.jpg" alt="drawing" width="600" height="200"/>
+Unemployment rate will definitely have an effect on the NPL ratio.  In this case for every 1 percent increase in the unemployment rate, the average NPL ratio increases by 0.3099. As mentioned earlier under the GDP section, an increase in hiring can lower the NPL ratio so higher numbers of unemployed persons can have the opposite effect on Non-performing loans.
 
+
+### X_RATE ###
+<img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/close-up-fragment-of-currency-exchange-rates-board-2021-04-06-13-43-15-utc.jpg" alt="drawing" width="600" height="200"/>
+This model illustrates that for every one (1) dollar increase in the exchange rate, the mean NPL ratio declines by 4.4546.  More investigation is required on this variable but some studies have shown that a depreciation of the currency can lead to lower NPLs in financial systems where there are a low number of foreign currency-denominated loans.  Perhaps, this is the case with Trinidad and Tobago.  Further investigation is required....
 
 
 ### M2_YYC ###
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/tumbler-on-a-vault-door-2021-04-05-08-15-25-utc.jpg" alt="drawing" width="600" height="200"/>
-The growth in M2 money is often seen as a good proxy for heightened economic activity and generation of wealth. M2 is a broader measure of money which includes cash, checking deposits and easily convertible ‘near money’. The regression model reveals that for every 1 percent (year-on-year) increase in M2 money, the mean NPL ratio declines by 0.3973, holding all other variables constant.  This is possible as higher M2 money is indicative of a stronger economy, healthier business profits and an uptick in job creation, which all translate to a lower probability of loan delinquency. 
+The growth in M2 money is often seen as a good proxy for heightened economic activity and generation of wealth. M2 is a broader measure of money which includes cash, checking deposits and easily convertible ‘near money’. The regression model reveals that for every 1 percent (year-on-year) increase in M2 money, the mean NPL ratio declines by 0.0712, holding all other variables constant. 
 
 In a healthy business environment, higher profits mean that corporate and commercial loan payments are upheld, which translates to lower delinquency rates.  Also, companies that plan to expand its operations, possess requisite leverage to obtain credit facilities.  This will result in higher loan balances and thus lower the NPL ratio, as the denominator in the formula increases.
 
 ![](https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/Ratio.png)
 
-A healthier business environment also leads to more hiring in Trinidad and Tobago and as previously discussed a stronger job market is often linked to higher levels of loan balances, which lowers the NPL ratio due to a higher "denominator-effect". As people make more money, they make apply for loans to purchase a car, furniture, or even mortgages and home renovation loans.
-
 
 ### CR_GROWTH_YY ###
 <img src="https://github.com/GR8505/NPL_Forecast_TrinidadTobago/blob/main/Images1/estate-agent-are-presenting-home-loan-to-client-an-45QXF26.jpg" alt="drawing" width="600" height="200"/>
-The NPL ratio is non-performing loans as a percentage of total loans.  Given that private sector credit growth can lead to a higher total loans value, this will definitely have a negative effect on NPL. 
+The NPL ratio is non-performing loans as a percentage of total loans.  Given that private sector credit growth can lead to a higher total loan value, this will definitely have a negative effect on NPL. 
 
-If non-performing loans remain constant and the denominator increases, then this will result in a lower NPL ratio.  In this model, a 1 percent increase in private sector credit growth will result in a decline in the average NPL ratio by 0.6199.
+If non-performing loans remain constant and the denominator increases, then this will result in a lower NPL ratio.  In this model, a 1 percent increase in private sector credit growth will result in a decline in the average NPL ratio by 0.1038.
 
 ------------------------------------------------------------------------------
 
